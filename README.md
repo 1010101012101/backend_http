@@ -30,6 +30,10 @@ nginx -s signal
 
 - Setting up nginx and node.js https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04
 - Setting up server https://www.npmjs.com/package/serve
+- To edit the location, type this then scroll down 
+```
+sudo nano /etc/nginx/sites-available/default 
+```
 
 ## Node.js
 - node.js runs javascript on the terminal (shell)
