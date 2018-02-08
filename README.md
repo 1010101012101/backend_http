@@ -27,3 +27,24 @@ nginx -s signal
 ```quit``` graceful shutdown
 ```reload``` reloading the configuration file
 ```reopen``` reopening the log files
+sudo nano /ect
+
+## Node.js
+- node.js runs javascript on the terminal (shell)
+- To get yarn on server
+``` 
+npm instal -g yarn
+```
+
+- you have to tell it that http is allowed 
+
+- to upadate code get to root directory then do
+```
+git pull
+```
+```npm run dist```  (compiled down version that can run on a node.js server)
+```
+server dist
+```
+- you need two sesssions that are always running (one for the node and one for the flask rest API) using an application called screen 
+
