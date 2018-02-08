@@ -28,7 +28,7 @@ nginx -s signal
 ```reload``` reloading the configuration file
 ```reopen``` reopening the log files
 
-- Setting up nginx https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04
+- Setting up nginx and node.js https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04
 - Setting up server https://www.npmjs.com/package/serve
 
 ## Node.js
