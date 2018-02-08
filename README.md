@@ -17,17 +17,12 @@ For **nginx** look to this guide: http://nginx.org/en/docs/beginners_guide.html
 ```
 sudo nginx
 ```
-
 - Once nginx is started, it can be controlled by invoking the executable with the -s parameter. Use the following syntax:
 ```
 nginx -s signal
 ```
 - Where signal may be one of the following:
-```
-stop``` fast shutdown
-```
-quit``` graceful shutdown
-```
-reload``` reloading the configuration file
-```
-reopen``` reopening the log files
+```stop``` fast shutdown
+```quit``` graceful shutdown
+```reload``` reloading the configuration file
+```reopen``` reopening the log files
