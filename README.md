@@ -27,7 +27,9 @@ nginx -s signal
 ```quit``` graceful shutdown
 ```reload``` reloading the configuration file
 ```reopen``` reopening the log files
-sudo nano /ect
+
+- Setting up nginx https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04
+- Setting up server https://www.npmjs.com/package/serve
 
 ## Node.js
 - node.js runs javascript on the terminal (shell)
