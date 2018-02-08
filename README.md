@@ -1,6 +1,6 @@
 # backend_http
 ## EC2 Info
-nginx beginner guide: http://nginx.org/en/docs/beginners_guide.html
+for nginx look to this guide: http://nginx.org/en/docs/beginners_guide.html
 
 Use SSH (another socket protocol like http) to directly access our EC2. EC2 Public IP : 34.204.7.160
 ``` 
