@@ -47,12 +47,14 @@ sudo systemctl restart nginx
  npm install -g serve
  ```
 
-## Node.js
-- node.js runs javascript on the terminal (shell)
+## Yarn
 - To get yarn on server
 ``` 
 npm instal -g yarn
 ```
+
+## Node.js
+- node.js runs javascript on the terminal (shell)
 
 - you have to tell it that http is allowed 
 
@@ -64,5 +66,7 @@ git pull
 ```
 server dist
 ```
+
+## Screen
 - you need two sesssions that are always running (one for the node and one for the flask rest API) using an application called screen 
 
