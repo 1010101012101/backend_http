@@ -34,6 +34,18 @@ nginx -s signal
 ```
 sudo nano /etc/nginx/sites-available/default 
 ```
+- To test the nginx files are still ok you can test by doing
+```
+sudo nginx -t
+```
+- To restart
+```
+sudo systemctl restart nginx
+```
+- To start the nginx server 
+```
+ npm install -g serve
+ ```
 
 ## Node.js
 - node.js runs javascript on the terminal (shell)
